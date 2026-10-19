@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "[GCP_API_KEY]",
-  authDomain: "smartboiler369.firebaseapp.com",
-  projectId: "smartboiler369",
-  storageBucket: "smartboiler369.firebasestorage.app",
-  messagingSenderId: "879758797783",
-  appId: "1:879758797783:web:f4ae62cf46525e71707992",
-  measurementId: "G-RYBF9QVR63"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
